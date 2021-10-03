@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background: white;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(transparent), to(#000)), var(--img) 50%/cover;
+  background: linear-gradient(#000, transparent, #000), var(--img) 50%/cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  width: 100vw;
+  height: 38vmin;
+  padding: 0px;
+}
+
+.banner:nth-of-type(1) {
+  --img: url('foot.jpg');
+}
+
+.banner:nth-of-type(2) {
+  --img: url('vials.gif');
+}
+
+.banner:nth-of-type(3) {
+  --img: url('spine.jpg');
+}
+
+.banner:nth-of-type(4) {
+  --img: url('foot.jpg');
+}
+
+.banner:nth-of-type(4) {
+  --img: url('stethoscope.jpg');
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("anatomy.jpg");
+  height: 100vh;
+  margin: 0px;
+}
+
+.title-name {
+  font-family: "Italianno", cursive;
+  font-size: 1100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 200px;
+}
+
+.intro-subtitle {
+  font-family: "Italianno", cursive;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 400%;
+  margin-top: -65px;
+  margin-left: 400px;
+}
+
+.aboutMe {
+  width: 100vw;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#d4d4d4), to(white));
+  background-image: linear-gradient(to top, #d4d4d4, white);
+}
+
+.about-title {
+  font-family: "Italianno", cursive;
+  font-size: 250%;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.about-para {
+  width: 100vw;
+  padding-left: 100px;
+  font-size: 150%;
+  font-family: "Raleway", sans-serif;
+}
+
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ribs {
+  height: 300px;
+  padding-right: 100px;
+}
+
+.school-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.schoolHistory {
+  width: 100vw;
+  text-align: center;
+}
+
+.historyLists {
+  text-align: left;
+  list-style-type: none;
+  font-size: 180%;
+  padding: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.work-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.workHistory {
+  text-align: center;
+}
+
+.listPara {
+  font-size: 50%;
+}
+
+.documents {
+  text-align: center;
+}
+
+.documents-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,153 @@
+$font-cursive: 'Italianno', cursive;
+$font-regular: 'Raleway', sans-serif;
+$title-size: 250%;
+
+* {
+    margin: 0px;
+}
+
+body {
+    background: white;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.banner {
+    background: linear-gradient(#000, transparent, #000),
+    var(--img) 50%/ cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 38vmin;
+    padding: 0px;
+    &:nth-of-type(1) {
+        --img: url('foot.jpg');
+    }
+    
+    &:nth-of-type(2) {
+        --img: url('vials.gif');
+    }
+    
+    &:nth-of-type(3) {
+        --img: url('spine.jpg');
+    }
+
+    &:nth-of-type(4) {
+        --img: url('foot.jpg');
+    }
+
+    &:nth-of-type(4) {
+        --img: url('stethoscope.jpg');
+    }
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('anatomy.jpg');
+    height: 100vh;
+    margin: 0px;
+}
+
+.title-name {
+    font-family: $font-cursive;
+    font-size: 1100%;
+    align-self: center;
+    margin-right: 200px;
+}
+
+.intro-subtitle {
+    font-family: $font-cursive;
+    align-self: center;
+    font-size: 400%;
+    margin-top: -65px;
+    margin-left: 400px;
+}
+
+.aboutMe {
+    width: 100vw;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(212, 212, 212), white);
+}
+
+.about-title {
+    font-family: $font-cursive;
+    font-size: $title-size;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.about-para {
+    width: 100vw;
+    padding-left: 100px;
+    font-size: 150%;
+    font-family: $font-regular;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.ribs {
+    height: 300px;
+    padding-right: 100px;
+}
+
+.school-title {
+    font-family: $font-cursive;
+    font-size: 350%;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.schoolHistory {
+    width: 100vw;
+    text-align: center;
+}
+
+.historyLists {
+    text-align: left;
+    list-style-type: none;
+    font-size: 180%;
+    padding: 50px;
+    font-family: $font-regular;
+}
+
+.work-title {
+    font-family: $font-cursive;
+    font-size: 350%;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.workHistory {
+    text-align: center;
+}
+
+.listPara {
+    font-size: 50%;
+}
+
+.documents {
+    text-align: center;
+}
+
+.documents-title {
+    font-family: $font-cursive;
+    font-size: 350%;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-title {
+    font-family: $font-cursive;
+    font-size: 350%;
+    opacity: 0.8;
+    margin-top: 20px;
+}
