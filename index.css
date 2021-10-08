@@ -257,4 +257,119 @@ body {
   background-color: #88786f;
   color: white;
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    background: white;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url("anatomy.jpg");
+    height: 100vh;
+    margin: 0px;
+  }
+  .title-name {
+    font-family: "Italianno", cursive;
+    font-size: 400%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 20px;
+  }
+  .intro-subtitle {
+    font-family: "Italianno", cursive;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 180%;
+    margin-left: 75px;
+    margin-top: 5px;
+    color: white;
+  }
+  .aboutMe {
+    width: 100vw;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#d4d4d4), to(white));
+    background-image: linear-gradient(to top, #d4d4d4, white);
+  }
+  .aboutContainer {
+    width: 90vw;
+    margin-left: 20px;
+  }
+  .about-title {
+    font-family: "Italianno", cursive;
+    font-size: 200%;
+    margin-top: 20px;
+    opacity: 0.7;
+  }
+  .about-para {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    font-size: 90%;
+    font-family: "Raleway", sans-serif;
+  }
+  .Quote {
+    font-family: "Italianno", cursive;
+    font-size: 100%;
+    opacity: 0.7;
+  }
+  .ribs {
+    display: none;
+  }
+  .emptyDiv {
+    display: none;
+  }
+  .school-title {
+    font-family: "Italianno", cursive;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-top: 20px;
+  }
+  .schoolHistory {
+    width: 100vw;
+    text-align: center;
+  }
+  .historyLists {
+    text-align: center;
+    list-style-type: none;
+    font-size: 70%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+  }
+  .work-title {
+    font-family: "Italianno", cursive;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-top: 20px;
+  }
+  .workHistory {
+    text-align: none;
+  }
+  .listPara {
+    font-size: 50%;
+  }
+  .clinical {
+    text-align: center;
+  }
+  .clinical-title {
+    font-family: "Italianno", cursive;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
