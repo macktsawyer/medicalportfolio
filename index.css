@@ -54,7 +54,7 @@ body {
   margin: 0px;
 }
 
-.title-name {
+.intro .title-name {
   font-family: "Italianno", cursive;
   font-size: 1100%;
   -ms-flex-item-align: center;
@@ -63,7 +63,7 @@ body {
   margin-right: 200px;
 }
 
-.intro-subtitle {
+.intro .intro-subtitle {
   font-family: "Italianno", cursive;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -80,25 +80,21 @@ body {
   background-image: linear-gradient(to top, #d4d4d4, white);
 }
 
-.about-title {
+.aboutMe .about-title {
   font-family: "Italianno", cursive;
   font-size: 250%;
   margin-top: 20px;
   opacity: 0.7;
 }
 
-.emptyDiv {
-  width: 10vw;
-}
-
-.about-para {
+.aboutMe .about-para {
   width: 100vw;
   padding-left: 100px;
   font-size: 150%;
   font-family: "Raleway", sans-serif;
 }
 
-.aboutContainer {
+.aboutMe .about-para .aboutContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,28 +104,32 @@ body {
           flex-direction: row;
 }
 
-.Quote {
+.aboutMe .about-para .aboutContainer h2 {
   font-family: "Italianno", cursive;
   font-size: 180%;
   opacity: 0.7;
 }
 
-.ribs {
+.aboutMe .about-para .aboutContainer .ribs {
   width: 10vw;
   height: 300px;
   padding-right: 100px;
 }
 
-.school-title {
-  font-family: "Italianno", cursive;
-  font-size: 350%;
-  opacity: 0.8;
-  margin-top: 20px;
+.emptyDiv {
+  width: 10vw;
 }
 
 .schoolHistory {
   width: 100vw;
   text-align: center;
+}
+
+.schoolHistory .school-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
 }
 
 .historyLists {
@@ -141,26 +141,26 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.work-title {
-  font-family: "Italianno", cursive;
-  font-size: 350%;
-  opacity: 0.8;
-  margin-top: 20px;
+.historyLists p {
+  font-size: 50%;
 }
 
 .workHistory {
   text-align: center;
 }
 
-.listPara {
-  font-size: 50%;
+.workHistory .work-title {
+  font-family: "Italianno", cursive;
+  font-size: 350%;
+  opacity: 0.8;
+  margin-top: 20px;
 }
 
 .clinical {
   text-align: center;
 }
 
-.clinical-title {
+.clinical .clinical-title {
   font-family: "Italianno", cursive;
   font-size: 350%;
   opacity: 0.8;
@@ -171,7 +171,7 @@ body {
   text-align: center;
 }
 
-.contacts {
+.contact .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,14 +181,14 @@ body {
   text-align: center;
 }
 
-.contact-title {
+.contact h1 {
   font-family: "Italianno", cursive;
   font-size: 350%;
   opacity: 0.8;
   margin-top: 20px;
 }
 
-.contactContainer {
+.contact .contactContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +201,7 @@ body {
           flex-direction: row;
 }
 
-.socialLinks {
+.contact .contactContainer .socialLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,11 +213,11 @@ body {
   margin-bottom: 100px;
 }
 
-.linkedIn {
+.contact .contactContainer .socialLinks .linkedIn {
   width: 100px;
 }
 
-.formDiv {
+.contact .contactContainer .formDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,7 +228,7 @@ body {
           transform: translate(-50px, 0px);
 }
 
-.contactForm {
+.contact .contactContainer .formDiv .contactForm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,14 +246,14 @@ body {
   margin-bottom: 100px;
 }
 
-.button {
+.contact .contactContainer .formDiv .contactForm .button {
   border: 2px solid #5a4839;
   border-radius: 5px;
   background-color: #e4d3c9;
   cursor: pointer;
 }
 
-.button:hover {
+.contact .contactContainer .formDiv .contactForm .button:hover {
   background-color: #88786f;
   color: white;
 }
@@ -279,7 +279,7 @@ body {
     height: 100vh;
     margin: 0px;
   }
-  .title-name {
+  .intro .title-name {
     font-family: "Italianno", cursive;
     font-size: 400%;
     -ms-flex-item-align: center;
@@ -287,7 +287,7 @@ body {
         align-self: center;
     margin-right: 20px;
   }
-  .intro-subtitle {
+  .intro .intro-subtitle {
     font-family: "Italianno", cursive;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -303,43 +303,43 @@ body {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#d4d4d4), to(white));
     background-image: linear-gradient(to top, #d4d4d4, white);
   }
-  .aboutContainer {
-    width: 90vw;
-    margin-left: 20px;
-  }
-  .about-title {
+  .aboutMe .about-title {
     font-family: "Italianno", cursive;
     font-size: 200%;
     margin-top: 20px;
     opacity: 0.7;
   }
-  .about-para {
+  .aboutMe .about-para {
     width: 100vw;
     padding: 0px;
     margin: 0px;
     font-size: 90%;
     font-family: "Raleway", sans-serif;
   }
-  .Quote {
+  .aboutMe .about-para .aboutContainer {
+    width: 90vw;
+    margin-left: 20px;
+  }
+  .aboutMe .about-para .aboutContainer h2 {
     font-family: "Italianno", cursive;
     font-size: 100%;
     opacity: 0.7;
   }
-  .ribs {
+  .aboutMe .about-para .aboutContainer .ribs {
     display: none;
   }
-  .emptyDiv {
+  .aboutMe .about-para .aboutContainer .emptyDiv {
     display: none;
-  }
-  .school-title {
-    font-family: "Italianno", cursive;
-    font-size: 100%;
-    opacity: 0.8;
-    margin-top: 20px;
   }
   .schoolHistory {
     width: 100vw;
     text-align: center;
+  }
+  .schoolHistory .school-title {
+    font-family: "Italianno", cursive;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-top: 20px;
   }
   .historyLists {
     text-align: center;
@@ -350,22 +350,22 @@ body {
     margin-bottom: 5px;
     font-family: "Raleway", sans-serif;
   }
-  .work-title {
+  .historyLists p {
+    font-size: 50%;
+  }
+  .workHistory {
+    text-align: none;
+  }
+  .workHistory .work-title {
     font-family: "Italianno", cursive;
     font-size: 100%;
     opacity: 0.8;
     margin-top: 20px;
   }
-  .workHistory {
-    text-align: none;
-  }
-  .listPara {
-    font-size: 50%;
-  }
   .clinical {
     text-align: center;
   }
-  .clinical-title {
+  .clinical .clinical-title {
     font-family: "Italianno", cursive;
     font-size: 100%;
     opacity: 0.8;

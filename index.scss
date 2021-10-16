@@ -48,74 +48,66 @@ body {
     background-image: url('anatomy.jpg');
     height: 100vh;
     margin: 0px;
-}
-
-.title-name {
-    font-family: $font-cursive;
-    font-size: 1100%;
-    align-self: center;
-    margin-right: 200px;
-}
-
-.intro-subtitle {
-    font-family: $font-cursive;
-    align-self: center;
-    font-size: 400%;
-    margin-top: -65px;
-    margin-left: 400px;
+    .title-name {
+        font-family: $font-cursive;
+        font-size: 1100%;
+        align-self: center;
+        margin-right: 200px;
+    }
+    .intro-subtitle {
+        font-family: $font-cursive;
+        align-self: center;
+        font-size: 400%;
+        margin-top: -65px;
+        margin-left: 400px;
+    }
 }
 
 .aboutMe {
     width: 100vw;
     text-align: center;
     background-image: linear-gradient(to top, rgb(212, 212, 212), white);
-}
-
-.about-title {
-    font-family: $font-cursive;
-    font-size: $title-size;
-    margin-top: 20px;
-    opacity: 0.7;
+    .about-title {
+        font-family: $font-cursive;
+        font-size: $title-size;
+        margin-top: 20px;
+        opacity: 0.7;
+    }
+    .about-para {
+        width: 100vw;
+        padding-left: 100px;
+        font-size: 150%;
+        font-family: $font-regular;
+        .aboutContainer {
+            display: flex;
+            flex-direction: row;
+            h2 {
+                font-family: $font-cursive;
+                font-size: 180%;
+                opacity: 0.7;
+            }
+            .ribs {
+                width: 10vw;
+                height: 300px;
+                padding-right: 100px;
+            }
+        }
+    }
 }
 
 .emptyDiv {
     width: 10vw;
 }
 
-.about-para {
-    width: 100vw;
-    padding-left: 100px;
-    font-size: 150%;
-    font-family: $font-regular;
-}
-
-.aboutContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.Quote {
-    font-family: $font-cursive;
-    font-size: 180%;
-    opacity: 0.7;
-}
-
-.ribs {
-    width: 10vw;
-    height: 300px;
-    padding-right: 100px;
-}
-
-.school-title {
-    font-family: $font-cursive;
-    font-size: 350%;
-    opacity: 0.8;
-    margin-top: 20px;
-}
-
 .schoolHistory {
     width: 100vw;
     text-align: center;
+    .school-title {
+        font-family: $font-cursive;
+        font-size: 350%;
+        opacity: 0.8;
+        margin-top: 20px;
+    }
 }
 
 .historyLists {
@@ -125,93 +117,81 @@ body {
     padding: 50px;
     margin-left: 200px;
     font-family: $font-regular;
-}
-
-.work-title {
-    font-family: $font-cursive;
-    font-size: 350%;
-    opacity: 0.8;
-    margin-top: 20px;
+    p {
+        font-size: 50%;
+    }
 }
 
 .workHistory {
     text-align: center;
-}
-
-.listPara {
-    font-size: 50%;
+    .work-title {
+        font-family: $font-cursive;
+        font-size: 350%;
+        opacity: 0.8;
+        margin-top: 20px;
+    }
 }
 
 .clinical {
     text-align: center;
-}
-
-.clinical-title {
-    font-family: $font-cursive;
-    font-size: 350%;
-    opacity: 0.8;
-    margin-top: 20px;
+    .clinical-title {
+        font-family: $font-cursive;
+        font-size: 350%;
+        opacity: 0.8;
+        margin-top: 20px;
+    }
 }
 
 .contact {
     text-align: center;
-}
-
-.contacts {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.contact-title {
-    font-family: $font-cursive;
-    font-size: 350%;
-    opacity: 0.8;
-    margin-top: 20px;
-}
-
-.contactContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-}
-
-.socialLinks {
-    display: flex;
-    align-items: center;
-    transform: translate(-150px, 0px);
-    margin-bottom: 100px;
-}
-
-.linkedIn{
-    width: 100px;
-}
-
-.formDiv {
-    display: flex;
-    justify-content: center;
-    transform: translate(-50px, 0px);
-}
-
-.contactForm {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    min-width: 20vw;
-    padding: 2px;
-    margin-bottom: 100px;
-}
-
-.button {
-    border: 2px solid rgb(90, 72, 57);
-    border-radius: 5px;
-    background-color: rgb(228, 211, 201);
-    cursor: pointer;
-    &:hover {
-        background-color: rgb(136, 120, 111);
-        color: white;
+    .contacts {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    h1 {
+        font-family: $font-cursive;
+        font-size: 350%;
+        opacity: 0.8;
+        margin-top: 20px;
+    }
+    .contactContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .socialLinks {
+            display: flex;
+            align-items: center;
+            transform: translate(-150px, 0px);
+            margin-bottom: 100px;
+            .linkedIn{
+                width: 100px;
+            }
+        }
+        .formDiv {
+            display: flex;
+            justify-content: center;
+            transform: translate(-50px, 0px);
+            .contactForm {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: column;
+                min-width: 20vw;
+                padding: 2px;
+                margin-bottom: 100px;
+                .button {
+                    border: 2px solid rgb(90, 72, 57);
+                    border-radius: 5px;
+                    background-color: rgb(228, 211, 201);
+                    cursor: pointer;
+                    &:hover {
+                        background-color: rgb(136, 120, 111);
+                        color: white;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -230,74 +210,65 @@ body {
         background-image: url('anatomy.jpg');
         height: 100vh;
         margin: 0px;
-    }
-    
-    .title-name {
-        font-family: $font-cursive;
-        font-size: 400%;
-        align-self: center;
-        margin-right: 20px;
-    }
-    
-    .intro-subtitle {
-        font-family: $font-cursive;
-        align-self: center;
-        font-size: 180%;
-        margin-left: 75px;
-        margin-top: 5px;
-        color: white;
+        .title-name {
+            font-family: $font-cursive;
+            font-size: 400%;
+            align-self: center;
+            margin-right: 20px;
+        }
+        .intro-subtitle {
+            font-family: $font-cursive;
+            align-self: center;
+            font-size: 180%;
+            margin-left: 75px;
+            margin-top: 5px;
+            color: white;
+        }
     }
     
     .aboutMe {
         width: 100vw;
         text-align: center;
         background-image: linear-gradient(to top, rgb(212, 212, 212), white);
-    }
-    
-    .aboutContainer {
-        width: 90vw;
-        margin-left: 20px;
-    }
-
-    .about-title {
-        font-family: $font-cursive;
-        font-size: 200%;
-        margin-top: 20px;
-        opacity: 0.7;
-    }
-
-    .about-para {
-        width: 100vw;
-        padding: 0px;
-        margin: 0px;
-        font-size: 90%;
-        font-family: $font-regular;
-    }
-
-    .Quote {
-        font-family: $font-cursive;
-        font-size: 100%;
-        opacity: 0.7;
-    }
-
-    .ribs { 
-        display: none;
-    }
-
-    .emptyDiv {
-        display: none;
-    }
-
-    .school-title {
-        font-family: $font-cursive;
-        font-size: 100%;
-        opacity: 0.8;
-        margin-top: 20px;
+        .about-title {
+            font-family: $font-cursive;
+            font-size: 200%;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+        .about-para {
+            width: 100vw;
+            padding: 0px;
+            margin: 0px;
+            font-size: 90%;
+            font-family: $font-regular;
+            .aboutContainer {
+                width: 90vw;
+                margin-left: 20px;
+                h2 {
+                    font-family: $font-cursive;
+                    font-size: 100%;
+                    opacity: 0.7;
+                }
+                .ribs { 
+                    display: none;
+                }
+                .emptyDiv {
+                    display: none;
+                }
+            }
+        }
     }
     
     .schoolHistory {
         width: 100vw;
         text-align: center;
+        .school-title {
+            font-family: $font-cursive;
+            font-size: 100%;
+            opacity: 0.8;
+            margin-top: 20px;
+        }
     }
     
     .historyLists {
@@ -308,31 +279,28 @@ body {
         margin-left: 10px;
         margin-bottom: 5px;
         font-family: $font-regular;
+        p {
+            font-size: 50%;
+        }
     }
-    
-    .work-title {
-        font-family: $font-cursive;
-        font-size: 100%;
-        opacity: 0.8;
-        margin-top: 20px;
-    }
-    
+      
     .workHistory {
         text-align: none;
-    }
-    
-    .listPara {
-        font-size: 50%;
+        .work-title {
+            font-family: $font-cursive;
+            font-size: 100%;
+            opacity: 0.8;
+            margin-top: 20px;
+        }
     }
     
     .clinical {
         text-align: center;
-    }
-    
-    .clinical-title {
-        font-family: $font-cursive;
-        font-size: 100%;
-        opacity: 0.8;
-        margin-top: 20px;
+        .clinical-title {
+            font-family: $font-cursive;
+            font-size: 100%;
+            opacity: 0.8;
+            margin-top: 20px;
+        }
     }
 }
